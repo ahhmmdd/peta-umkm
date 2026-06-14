@@ -74,7 +74,7 @@ Papa.parse(sheetUrl, {
                         <b>${umkm.Nama}</b><br>
                         ${umkm.Jenis}<br>
                         <img src="${umkm.Foto}" width="200"><br>
-                        <a href="${umkm.Link}" target="_blank">Lihat Detail</a>
+                        <a href="${umkm.U}" target="_blank">Lihat Detail</a>
                     `);
 
                 // Simpan data ke dalam array untuk dihitung jaraknya nanti
